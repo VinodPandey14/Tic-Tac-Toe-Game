@@ -1,0 +1,154 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background-image: url(pexels-frank-cone-3214110.jpg);
+background-size:cover;
+} 
+h1{
+color: white;
+text-align: center;
+margin-top: 5%;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 45px;
+} 
+main{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#container{
+height: 300px;
+width: 260px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 30%;
+gap: 1vmin;
+}
+.btn{
+background-color: #ffff33;
+height: 80px;
+width: 80px;
+border: 1.5px solid black;
+border-radius: 1rem;
+box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+font-size: 35px;
+font-weight: bold;
+font-family: cursive;
+color: rgb(204, 12, 12);
+text-shadow: 2px 2px rgb(128, 128, 128);
+}
+#reset-btn{
+background-color: rgb(241, 220, 220);
+margin-top: 20%;
+height: 50px;
+width: 150px;
+border-radius: 2rem;
+border: 2px solid black;
+font-size: 23px;
+font-weight: bold;
+font-family:monospace;
+}
+#reset-btn:hover{
+background-color: rgb(145, 135, 135);
+}
+.winMsg{
+height: 150px;
+width: 350px;
+background-color: antiquewhite;
+border: 5px solid aqua;
+position: absolute;
+border-radius: 2rem;
+font-size: 23px;
+font-weight: bold;
+font-family:cursive;
+color: green;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+gap: 1rem;
+}
+.hide{
+display: none;
+}
+h3{
+color: orangered;
+font-family:monospace;
+}
+#choiceBox{
+position: absolute;
+top: 30%;
+left: 38%;
+background-color :grey;
+height: 50vmin;
+width: 50vmin;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+border-radius: 2rem;
+}
+
+big{
+font-size: 3vmin;
+font-weight: bold;
+}
+.player{
+margin-top: 20px;
+height: 12vmin;
+width: 12vmin;
+border: 2px solid rgb(82, 9, 100);
+border-radius: 50%;
+background-color: white;
+}
+#startGame{
+height: 8vmin;
+width: 20vmin;
+border: 2px solid black;
+border-radius: 2rem;
+position:relative;
+top : 50px;
+background-color:rgb(32, 119, 90);
+font-family: cursive;
+font-weight: bolder;
+font-size: large;
+}
+#playerX{
+font-size: 30px;
+font-weight:bolder;
+font-family: cursive;
+color: rgb(204, 12, 12);
+text-shadow: 2px 2px rgb(128, 128, 128);
+margin-right : 2vmin;
+}
+#playerO{
+color: aqua;
+font-size: 30px;
+font-weight: bolder;
+font-family: cursive;
+text-shadow: 2px 2px rgb(128, 128, 128);    
+margin-left: 2vmin;      
+}
+a{
+color: rgb(8, 3, 3);
+}
+@media (max-width:600px) {
+body{
+background-size:auto;
+} 
+#choiceBox{
+position: absolute;
+left: 25%;
+} 
+#startGame{
+height: 40px;
+width: 120px; 
+text-align: center;
+} 
+}
